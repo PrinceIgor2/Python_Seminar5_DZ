@@ -11,7 +11,7 @@
 # print(f'Конечный результат: {" ".join(lst)}')
 
 
-user_text = list(input("Введите текст:\n").split())
+user_text = input("Введите текст:\n").split()
 user_word = input("Введите слово:\n")
 
 def delete_word (user_text: list, user_word:str) ->str:
